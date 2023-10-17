@@ -1,6 +1,6 @@
 ##workaround
 import os
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = 'dumb_key'
 
 print ("discontinued since API key is not free")
 ##https://python.langchain.com/docs/modules/agents/
