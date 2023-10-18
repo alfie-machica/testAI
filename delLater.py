@@ -12,5 +12,7 @@ class Layer_Dense:
     def forward(self, inputs):
         self.output = np.dot(inputs, self.weights) + self.biases
 
-layer1 = Layer_Dense(4, 125000)
-layer2 = Layer_Dense(125000, 2)
+layer1 = Layer_Dense(4, 1500000000)
+layer2 = Layer_Dense(1500000000, 2)
+
+print ("done")
